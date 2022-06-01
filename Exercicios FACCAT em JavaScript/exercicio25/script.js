@@ -12,7 +12,7 @@ saldoAtual = saldo-debito+credito
 
 if (saldoAtual <= -1) {
     alert("Sua conta de numero ("+nConta+" ) esta negativada e seu saldo atual é de R$"+saldoAtual)
-} else if (saldoAtual = 0) { 
+} else if (saldoAtual == 0) { 
     alert("Sua conta de numero ("+nConta+" ) esta zerada e seu saldo atual é de R$"+saldoAtual)
 } else {
     alert("Sua conta de numero ("+nConta+" ) esta positiva e seu saldo atual é de R$"+saldoAtual)
