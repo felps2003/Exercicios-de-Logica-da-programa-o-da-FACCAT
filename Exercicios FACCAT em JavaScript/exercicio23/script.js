@@ -6,9 +6,9 @@ sexo = parseInt(prompt("Qual é seu Sexo, (1) para Masculie ou (2) para feminino
 
 altura = parseFloat(prompt("Qual sua altura: "))
 
-if (sexo = 1) {
+if (sexo == 1) {
     pesoIdeal = (72.7*altura)-58
-} else if (sexo = 2) {
+} else if (sexo == 2) {
     pesoIdeal = (62.1*altura)-44.7
 }
 
