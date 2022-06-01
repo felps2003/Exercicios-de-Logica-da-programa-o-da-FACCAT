@@ -16,6 +16,8 @@ if ((a < b+c) && (b <a+c) && (c <a+b)){
     mens = "Não é possível formar um triângulo"
 }
 
+alert(mens);
+
 //    Variáveis
 //a | b | C |                 Mens               |
 //1 | 2 | 3 | Não e possível formar um triângulo |
